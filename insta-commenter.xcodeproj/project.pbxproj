@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4D16601A6C354E00CFE42E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4D165F1A6C354E00CFE42E /* AppDelegate.m */; };
+		FA4D16621A6C354E00CFE42E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4D16611A6C354E00CFE42E /* main.m */; };
+		FA4D16651A6C354E00CFE42E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4D16641A6C354E00CFE42E /* ViewController.m */; };
+		FA4D16671A6C354E00CFE42E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4D16661A6C354E00CFE42E /* Images.xcassets */; };
+		FA4D166A1A6C354E00CFE42E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4D16681A6C354E00CFE42E /* Main.storyboard */; };
+		FA4D16761A6C354E00CFE42E /* instaSpamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4D16751A6C354E00CFE42E /* instaSpamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA4D16701A6C354E00CFE42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4D16511A6C354E00CFE42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4D16581A6C354E00CFE42E;
+			remoteInfo = instaSpam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA4D16591A6C354E00CFE42E /* insta-commenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "insta-commenter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4D165D1A6C354E00CFE42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4D165E1A6C354E00CFE42E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA4D165F1A6C354E00CFE42E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA4D16611A6C354E00CFE42E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA4D16631A6C354E00CFE42E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA4D16641A6C354E00CFE42E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA4D16661A6C354E00CFE42E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA4D16691A6C354E00CFE42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA4D166F1A6C354E00CFE42E /* insta-commenter.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "insta-commenter.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4D16741A6C354E00CFE42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4D16751A6C354E00CFE42E /* instaSpamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instaSpamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4D16561A6C354E00CFE42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4D166C1A6C354E00CFE42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA4D16501A6C354E00CFE42E = {
+			isa = PBXGroup;
+			children = (
+				FA4D165B1A6C354E00CFE42E /* instaSpam */,
+				FA4D16721A6C354E00CFE42E /* instaSpamTests */,
+				FA4D165A1A6C354E00CFE42E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4D165A1A6C354E00CFE42E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D16591A6C354E00CFE42E /* insta-commenter.app */,
+				FA4D166F1A6C354E00CFE42E /* insta-commenter.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4D165B1A6C354E00CFE42E /* instaSpam */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D165E1A6C354E00CFE42E /* AppDelegate.h */,
+				FA4D165F1A6C354E00CFE42E /* AppDelegate.m */,
+				FA4D16631A6C354E00CFE42E /* ViewController.h */,
+				FA4D16641A6C354E00CFE42E /* ViewController.m */,
+				FA4D16661A6C354E00CFE42E /* Images.xcassets */,
+				FA4D16681A6C354E00CFE42E /* Main.storyboard */,
+				FA4D165C1A6C354E00CFE42E /* Supporting Files */,
+			);
+			path = instaSpam;
+			sourceTree = "<group>";
+		};
+		FA4D165C1A6C354E00CFE42E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D165D1A6C354E00CFE42E /* Info.plist */,
+				FA4D16611A6C354E00CFE42E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA4D16721A6C354E00CFE42E /* instaSpamTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D16751A6C354E00CFE42E /* instaSpamTests.m */,
+				FA4D16731A6C354E00CFE42E /* Supporting Files */,
+			);
+			path = instaSpamTests;
+			sourceTree = "<group>";
+		};
+		FA4D16731A6C354E00CFE42E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D16741A6C354E00CFE42E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4D16581A6C354E00CFE42E /* insta-commenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4D16791A6C354E00CFE42E /* Build configuration list for PBXNativeTarget "insta-commenter" */;
+			buildPhases = (
+				FA4D16551A6C354E00CFE42E /* Sources */,
+				FA4D16561A6C354E00CFE42E /* Frameworks */,
+				FA4D16571A6C354E00CFE42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "insta-commenter";
+			productName = instaSpam;
+			productReference = FA4D16591A6C354E00CFE42E /* insta-commenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA4D166E1A6C354E00CFE42E /* insta-commenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4D167C1A6C354E00CFE42E /* Build configuration list for PBXNativeTarget "insta-commenterTests" */;
+			buildPhases = (
+				FA4D166B1A6C354E00CFE42E /* Sources */,
+				FA4D166C1A6C354E00CFE42E /* Frameworks */,
+				FA4D166D1A6C354E00CFE42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4D16711A6C354E00CFE42E /* PBXTargetDependency */,
+			);
+			name = "insta-commenterTests";
+			productName = instaSpamTests;
+			productReference = FA4D166F1A6C354E00CFE42E /* insta-commenter.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4D16511A6C354E00CFE42E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = sssssss;
+				TargetAttributes = {
+					FA4D16581A6C354E00CFE42E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FA4D166E1A6C354E00CFE42E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FA4D16581A6C354E00CFE42E;
+					};
+				};
+			};
+			buildConfigurationList = FA4D16541A6C354E00CFE42E /* Build configuration list for PBXProject "insta-commenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA4D16501A6C354E00CFE42E;
+			productRefGroup = FA4D165A1A6C354E00CFE42E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4D16581A6C354E00CFE42E /* insta-commenter */,
+				FA4D166E1A6C354E00CFE42E /* insta-commenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4D16571A6C354E00CFE42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4D16671A6C354E00CFE42E /* Images.xcassets in Resources */,
+				FA4D166A1A6C354E00CFE42E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4D166D1A6C354E00CFE42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4D16551A6C354E00CFE42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4D16651A6C354E00CFE42E /* ViewController.m in Sources */,
+				FA4D16621A6C354E00CFE42E /* main.m in Sources */,
+				FA4D16601A6C354E00CFE42E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4D166B1A6C354E00CFE42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4D16761A6C354E00CFE42E /* instaSpamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA4D16711A6C354E00CFE42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4D16581A6C354E00CFE42E /* insta-commenter */;
+			targetProxy = FA4D16701A6C354E00CFE42E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA4D16681A6C354E00CFE42E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4D16691A6C354E00CFE42E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA4D16771A6C354E00CFE42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA4D16781A6C354E00CFE42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA4D167A1A6C354E00CFE42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = instaSpam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "insta-commenter";
+			};
+			name = Debug;
+		};
+		FA4D167B1A6C354E00CFE42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = instaSpam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "insta-commenter";
+			};
+			name = Release;
+		};
+		FA4D167D1A6C354E00CFE42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = instaSpamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "insta-commenter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/insta-commenter.app/Contents/MacOS/insta-commenter";
+			};
+			name = Debug;
+		};
+		FA4D167E1A6C354E00CFE42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = instaSpamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "insta-commenter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/insta-commenter.app/Contents/MacOS/insta-commenter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4D16541A6C354E00CFE42E /* Build configuration list for PBXProject "insta-commenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4D16771A6C354E00CFE42E /* Debug */,
+				FA4D16781A6C354E00CFE42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4D16791A6C354E00CFE42E /* Build configuration list for PBXNativeTarget "insta-commenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4D167A1A6C354E00CFE42E /* Debug */,
+				FA4D167B1A6C354E00CFE42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4D167C1A6C354E00CFE42E /* Build configuration list for PBXNativeTarget "insta-commenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4D167D1A6C354E00CFE42E /* Debug */,
+				FA4D167E1A6C354E00CFE42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA4D16511A6C354E00CFE42E /* Project object */;
+}
